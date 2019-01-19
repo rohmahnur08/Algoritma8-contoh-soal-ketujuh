@@ -1,0 +1,15 @@
+#include<stdio.h>
+int JUMLAH(int x, int y);
+
+void main(){
+    int A,B,T;
+    A=5; B=2;
+    T=JUMLAH(A,B);
+    printf("%d,T);
+}
+
+int JUMLAH(int x, int y){
+    int h;
+    h = x + y;
+    return(h);
+}
